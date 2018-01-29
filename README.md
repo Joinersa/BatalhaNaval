@@ -1,5 +1,6 @@
 # Batalha Naval
-![Image]()
+
+![Image](https://github.com/Joinersa/BatalhaNaval/blob/master/scrennshots/banner.png)
 
 **Batalha Naval** é um jogo de tabuleiro de dois jogadores, no qual os jogadores têm de adivinhar em que quadrados estão os navios do oponente. Seu objectivo é derrubar os barcos do oponente adversário, ganha quem derrubar todos os navios adversários primeiro. Antes do início do jogo, cada jogador coloca os seus navios nos quadros, alinhados horizontalmente ou verticalmente. O número de navios permitidos é igual para ambos jogadores e os navios não podem se sobrepor.
 Os tipos de navios são: **porta-aviões** (três quadrados), **navios médio** (dois quadrados) e **contratorpedeiros** (um quadrado). Vale notar que os quadrados que compõem um navio devem estar conectados e em fila reta. Nesse jogo o tabuleiro tem dimensões **7x7**.
