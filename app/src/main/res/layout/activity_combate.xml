@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_tabuleiro"
+    android:orientation="vertical"
+    tools:context="br.com.joinersa.batalhanaval.activity.CombateActivity">
+
+
+    <TextView
+        android:id="@+id/tv_informacao_combate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Batalha Naval"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <GridLayout
+        android:id="@+id/gl_matriz_combate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#9f000000"
+        android:columnCount="7"
+        android:rowCount="7">
+
+        <ImageView
+            android:id="@+id/iv_a0"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_a1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_a2"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_a3"
+            android:background="?attr/selectableItemBackground"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_a4"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_a5"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_a6"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_b0"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_b1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_b2"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_b3"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_b4"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_b5"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_b6"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_c0"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_c1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_c2"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_c3"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_c4"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_c5"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_c6"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_d0"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_d1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_d2"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_d3"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_d4"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_d5"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_d6"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_e0"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_e1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_e2"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_e3"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_e4"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_e5"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_e6"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_f0"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_f1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_f2"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_f3"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_f4"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_f5"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_f6"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_g0"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_g1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_g2"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_g3"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_g4"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_g5"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/iv_g6"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="#9f000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_status_adversario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="Status do adversário..."
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_status_adversario"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@null" />
+
+    </LinearLayout>
+
+</LinearLayout>

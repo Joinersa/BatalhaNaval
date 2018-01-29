@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#37474f</color>
+    <color name="colorAccent">#ba0900</color>
+
+    <color name="corBackground">#c9c9c9</color>
+
+    <color name="corInsercaoPossivel">#0d47a1</color>
+    <color name="corInsercaoImpossivel">#b71c1c</color>
+
+</resources>

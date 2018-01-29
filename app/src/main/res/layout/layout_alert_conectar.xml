@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Conectar ao adversário..."
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_iniciar_servidor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar um jogo" />
+
+    <Button
+        android:id="@+id/btn_conectar_a_um_servidor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conectar a um jogo"/>
+
+</LinearLayout>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_tabuleiro"
+    android:orientation="vertical"
+    tools:context="br.com.joinersa.batalhanaval.activity.MeuTabuleiroActivity">
+
+    <GridLayout
+        android:id="@+id/grid_layout_matriz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0"
+        android:background="#9f000000"
+        android:columnCount="7"
+        android:rowCount="7">
+
+        <ImageView
+            android:id="@+id/a0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+
+        <ImageView
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/a5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/a6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+
+        <ImageView
+            android:id="@+id/b0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+
+        <ImageView
+            android:id="@+id/c0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/c3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/c4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/c5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/c6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+
+        <ImageView
+            android:id="@+id/d0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/d1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/d2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/d3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/d4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/d5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/d6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+
+        <ImageView
+            android:id="@+id/e0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/e1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/e2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/e3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/e4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/e5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/e6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+
+        <ImageView
+            android:id="@+id/f0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/f1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/f2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/f3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/f4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/f5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/f6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+
+        <ImageView
+            android:id="@+id/g0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/g1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/g2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/g3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/g4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/g5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+        <ImageView
+            android:id="@+id/g6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_src_iv_tabuleiro" />
+
+    </GridLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="2"
+        android:background="#9f000000"
+        android:orientation="vertical">
+
+        <!-- VERTICAL -->
+
+        <ImageView
+            android:id="@+id/iv_navio_vertical_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/navio_vertical_1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_navio_vertical_2"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/navio_vertical_2"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_navio_vertical_3"
+            android:layout_width="70dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/navio_vertical_3"
+            android:visibility="invisible" />
+
+        <!-- HORIZONTAL -->
+
+        <ImageView
+            android:id="@+id/iv_navio_horizontal_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/navio_horizontal_1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_navio_horizontal_2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/navio_horizontal_2"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_navio_horizontal_3"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/navio_horizontal_3"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:id="@+id/iv_btn_girar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@mipmap/ic_btn_girar_navio" />
+
+        <ImageView
+            android:id="@+id/iv_btn_conectar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible"
+            android:layout_margin="8dp"
+            android:src="@mipmap/ic_btn_play" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

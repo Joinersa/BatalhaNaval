@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Batalha Naval</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tabuleiro">TabuleiroActivity</string>
+</resources>
