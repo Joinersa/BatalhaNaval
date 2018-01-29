@@ -8,14 +8,14 @@ Os tipos de navios são: **porta-aviões** (três quadrados), **navios médio** 
 **Aplicativo desenvolvido em 2017 durante uma disciplina do curso de Sistemas de Informação da Universidade Federal do Pará (UFPA) do Campus de Cametá.**
 
 ### Aviso
-Aplicativo foi feito em poucos dias e está com muitos erros. Ao iniciar uma partida entre dois dispositivos, **é necessário que os mesmos já estejam pareados pelo bluetooth**.
+Aplicativo foi desenvolvido em poucos dias e está com muitos erros. Ao iniciar uma partida entre dois dispositivos, **é necessário que os mesmos já estejam pareados pelo bluetooth**.
 
 ### Informações Técnicas
 - Compatibilidade: [![API](https://img.shields.io/badge/API-15%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=14)
 - Aplicativo utiliza comunicação **Bluetooth** 
 
 # Download APK
-**Baixe** e instale o aplicativo game **Batalha Naval** **[AQUI]()**
+**Baixe** e instale o aplicativo game **Batalha Naval** **[AQUI](https://drive.google.com/open?id=1C7X9-q4C-FJXcRSb0G8Ju97PJwsosD7f)**
 
 # Screenshots
 ![Image]()
