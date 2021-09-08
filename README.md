@@ -15,9 +15,6 @@ Aplicativo foi desenvolvido em poucos dias e está com muitos erros. Ao iniciar 
 - Compatibilidade: [![API](https://img.shields.io/badge/API-15%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=14)
 - Aplicativo utiliza comunicação **Bluetooth** 
 
-# Download APK
-**Baixe** e instale o aplicativo game **Batalha Naval** **[AQUI](https://drive.google.com/open?id=1C7X9-q4C-FJXcRSb0G8Ju97PJwsosD7f)**
-
 # Desenvolvido por
    **Joiner Sá**
 
