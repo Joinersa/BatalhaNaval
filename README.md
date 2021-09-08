@@ -18,16 +18,11 @@ Aplicativo foi desenvolvido em poucos dias e está com muitos erros. Ao iniciar 
 # Download APK
 **Baixe** e instale o aplicativo game **Batalha Naval** **[AQUI](https://drive.google.com/open?id=1C7X9-q4C-FJXcRSb0G8Ju97PJwsosD7f)**
 
-# Screenshots
-![Image]()
-![Image]()
-
 # Desenvolvido por
    **Joiner Sá**
 
 * **E-mail**: <joinersa@hotmail.com>
 * [Facebook](https://www.facebook.com/joiner.sa)
-* [WhatsApp (+55 91 92228133)](https://api.whatsapp.com/send?phone=+559192228133)
 * [LinkedIn](https://www.linkedin.com/in/joiner-s%C3%A1-367342b7/)
 
 # Licença
